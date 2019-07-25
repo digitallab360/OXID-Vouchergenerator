@@ -1,6 +1,3 @@
-# OXID-Vouchergenerator
-Module for creating coupon codes with individual settings.
-
 # OXID eShop ``Vouchergenerator``
 
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/PTMarkus)
