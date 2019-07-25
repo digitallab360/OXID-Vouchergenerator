@@ -1,0 +1,39 @@
+{
+    "name": "dlb360/dlb_vouchergenerator",
+    "description": "Module for creating coupon codes with individual settings.\n",
+    "type": "oxideshop-module",
+    "keywords": [
+		"oxid", 
+		"modules", 
+		"eShop"
+	],
+    "homepage": "https://www.digitallab360.de",
+    "version": "1.0",
+    "license": [
+      "GPL-3.0-only"
+    ],
+    "authors": [
+      {
+        "name": "digitallab360",
+        "email": "oxid@digitallab360.de",
+        "homepage": "https://www.digitallab360.de",
+        "role": "Developer"
+      }
+    ],
+    "support": {
+      "email": "oxid@digitallab360.de"
+    },
+    "extra": {
+        "oxideshop": {
+            "target-directory": "dlb360/dlb_vouchergenerator"
+        }
+    },
+    "require": {
+      "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigitalLab\\VoucherGenerator\\": "../../../source/modules/dlb360/dlb_vouchergenerator"
+        }
+    }
+}
